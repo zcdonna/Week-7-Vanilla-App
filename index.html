@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Oxygen&family=Poiret+One&family=Poppins&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <h1>New Haven</h1>
-      <div>
-        <p>
-          Tuesday 14:40, scatter clouds
-          <br />
-          Humidity: 66%, Wind: 3.1km/h
-        </p>
-      </div>
-      <div>🌤️12°C</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/zcdonna" target="_blank"> Donna Chow</a>
-      is
-      <a href="https://github.com/zcdonna/Week-7-Vanilla-App" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and hosted on
-      <a href="https://vanilla-app-dc-week7.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city" required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <h1>New Haven</h1>
+        <div>
+          <p>
+            Tuesday 14:40, scatter clouds
+            <br />
+            Humidity: 66%, Wind: 3.1km/h
+          </p>
+        </div>
+        <div>🌤️12°C</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/zcdonna" target="_blank"> Donna Chow</a>
+        is
+        <a href="https://github.com/zcdonna/Week-7-Vanilla-App" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and hosted on
+        <a href="https://vanilla-app-dc-week7.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
