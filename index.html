@@ -19,10 +19,10 @@
         <form class="search-form" id="search-form">
           <input
             type="search"
-            placeholder="Enter a city"
+            placeholder="Enter a city.."
             required
-            class="search-form-input"
             id="search-form-input"
+            class="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -30,17 +30,19 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="city">New Haven</h1>
+            <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
-              Tuesday 14:40, scatter clouds
+              <span id="time"></span>,
+              <span id="description"></span>
               <br />
-              Humidity: <strong>66%</strong> Wind: <strong>3.1km/h</strong>
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
-            <div class="weather-app-icon">🌤️</div>
-            <div class="weather-app-temperature" id="temperature">12</div>
-            <div class="weather-app-unit">°F</div>
+            <div id="icon"></div>
+            <div class="weather-app-temperature" id="temperature"></div>
+            <div class="weatehr-app-unit">°F</div>
           </div>
         </div>
       </main>
